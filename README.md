@@ -1,6 +1,6 @@
 # example_gem
 
-An example for creating a gem.
+This gem is to show how to create a gem from start and to provide an example for creating a gem.
 
 ### How to create a gem
 
