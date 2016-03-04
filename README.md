@@ -27,3 +27,38 @@ like this:
   Each of these adds a runtime dependency (needed to run the
 gem at all) or a development dependency (needed to develop or
 test the gem).
+
+Letʼs build your gem and install it:
+
+```ruby
+ gem build example_gem.gemspec
+ gem install example_gem-0.0.1.gem
+```
+
+the final step is to require the gem and use it:
+
+```ruby
+% irb
+2.1.1 :001 > require 'example_gem'
+true
+2.1.1 :002 > ExampleGem::Hello.say_hi
+Hello, world!
+nil
+2.1.1 :003 > ExampleGem::Hello.say_hi("liukgg")
+Hello, liukgg!
+nil
+2.1.1 :004 >
+```
+
+### How to rebuild and reinstall when you change the code of the gem
+Build the gem again and install it:
+
+``` ruby
+gem build example_gem.gemspec
+gem install example_gem-0.0.1.gem
+```
+
+### To know how to publish your gem to rubygems.org, you can see this:
+ http://guides.rubygems.org/make-your-own-gem/
+
+

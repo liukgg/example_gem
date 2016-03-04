@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["liukun"]
   spec.email         = ["liukun@rd.tuan800.com"]
   spec.summary       = %q{An example for creating a gem.}
-  spec.description   = %q{An example for creating a gem.}
-  spec.homepage      = ""
+  spec.description   = %q{An example for creating a gem.To show how to create a gem from start and how to share it.}
+  spec.homepage      = "https://github.com/liukgg/example_gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", '~> 0'
 end
