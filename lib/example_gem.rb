@@ -4,7 +4,7 @@ module ExampleGem
 
   class Hello
     def self.say_hi(name = "world")
-      puts "Hello, #{name}!"
+      p "Hello, #{name}!"
     end
   end
 

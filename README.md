@@ -1,5 +1,8 @@
 # example_gem
+
 An example for creating a gem.
+
+### How to create a gem
 
 You can create a gem by this command:
 
@@ -61,4 +64,7 @@ gem install example_gem-0.0.1.gem
 ### To know how to publish your gem to rubygems.org, you can see this:
  http://guides.rubygems.org/make-your-own-gem/
 
+### Materails
+ 《RebuildingRailsCurrent》
 
+ http://guides.rubygems.org/make-your-own-gem/
