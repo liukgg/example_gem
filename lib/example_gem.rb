@@ -1,5 +1,11 @@
 require "example_gem/version"
 
 module ExampleGem
-  # Your code goes here...
+
+  class Hello
+    def self.say_hi(name = "world")
+      puts "Hello, #{name}!"
+    end
+  end
+
 end
