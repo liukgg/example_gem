@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["liukgg"]
   spec.email         = ["liuk1991@sina.com"]
   spec.summary       = %q{An example for creating a gem.}
-  spec.description   = %q{An example for creating a gem.To show how to create a gem from start and how to share it.}
+  spec.description   = %q{An example for creating a ruby gem.To show how to create a gem from start and how to share it.}
   spec.homepage      = "https://github.com/liukgg/example_gem"
   spec.license       = "MIT"
 
