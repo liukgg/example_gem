@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'example_gem/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "example_gem"
+  spec.name          = "example_gem_ruby"
   spec.version       = ExampleGem::VERSION
-  spec.authors       = ["liukun"]
-  spec.email         = ["liukun@rd.tuan800.com"]
+  spec.authors       = ["liukgg"]
+  spec.email         = ["liuk1991@sina.com"]
   spec.summary       = %q{An example for creating a gem.}
   spec.description   = %q{An example for creating a gem.To show how to create a gem from start and how to share it.}
   spec.homepage      = "https://github.com/liukgg/example_gem"
