@@ -1,5 +1,7 @@
 # example_gem
 
+[README-中文版](https://github.com/liukgg/example_gem/blob/master/README-CN.md)
+
 This gem is to show how to create a gem from start and to provide an example for creating a gem.
 
 ### How to create a gem
